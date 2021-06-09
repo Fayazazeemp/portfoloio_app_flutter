@@ -15,7 +15,8 @@ class ContactMe extends StatelessWidget {
           children: [
             Positioned.fill(
                 child: Container(
-                  decoration: const BoxDecoration(
+                  decoration: new BoxDecoration(
+                    borderRadius: BorderRadius.all(Radius.circular(10)),
                     color: Color(0xFF122F5C),
                   ),
                 )),

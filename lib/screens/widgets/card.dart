@@ -11,9 +11,12 @@ class DetailsCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: EdgeInsets.only(right: 30, top: 20, bottom: 20),
+      decoration: new BoxDecoration(
+          color: Color(0xFF122F5C),
+        borderRadius: BorderRadius.all(Radius.circular(20))
+      ),
+      margin: EdgeInsets.only(right: 30, top: 20, bottom: 20,left:5),
       width: 160.0,
-      color: Color(0xFF122F5C),
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
